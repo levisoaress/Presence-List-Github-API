@@ -1,0 +1,155 @@
+.pai{
+ box-sizing: border-box;
+}
+
+.container-app{
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+
+}
+
+/*=============== Bloco de Perfil e descrição ===============*/
+.perfil{
+  width: 30%;
+ 
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffff;
+  border-radius: 10px;
+ 
+}
+
+/************ Foto e Redes ************/
+.more{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  background: #e5e5e5;
+  
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  height: 180px;
+}
+
+#foto{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  
+}
+
+#foto:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.7);
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+#linkedin,#instagram,#twitter{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transform: scale(1.05);
+  
+}
+
+.redes a:hover{
+  
+  transform: scale(1.1);
+  
+}
+
+/************ Foto e Redes ************/
+
+/************ Descrição ************/
+
+.description{
+  display: flex;
+  flex-flow: column nowrap;
+  background: #e5e5e5e5;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.description h3,p{
+  margin: 2px 0;
+}
+
+/************ Descrição ************/
+
+/*=============== Bloco de Perfil e descrição ===============*/
+
+/*=============== Bloco de input e botao ===============*/
+.input-botao{
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  margin: 5px 0;
+  border-radius: 5px;
+ 
+}
+
+.adiciona{
+  display: flex;
+  flex-flow: row nowrap;
+  border: solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.input-botao input{
+  border-radius: 5px 0 0 5px;
+  border: none;
+  width: 400px;
+  margin: 0 1px;
+}
+
+.input-botao button{
+  border-radius: 0 2px 2px 0;
+  border: none;
+  background: #e5e5e5;
+}
+
+.nome-nota-horario{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+
+  margin-top: 20px;
+
+  color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.nome-nota-horario p{
+  width: 30%;
+  text-align: center;
+}
+
+/*=============== Bloco de input e botao ===============*/
+
+
+/*=============== Bloco de Componentes ===============*/
+.Components{
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin: 20px 0;
+}
+/*=============== Bloco de Componentes ===============*/
